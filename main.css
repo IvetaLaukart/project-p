@@ -77,11 +77,12 @@ button {
 
 .about__images {
   max-width: 550px;
-
+  display: flex;
 }
 
 .about__image {
-  width: 500px;
+  width: 550px;
+  height: 250px;
 }
  
 .sunshine {
@@ -89,7 +90,6 @@ button {
   height: 100px;
   position: absolute;
   animation: rotation 10s linear infinite;
-
 }
 
 @keyframes rotation {
